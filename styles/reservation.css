@@ -1,0 +1,91 @@
+/* reservation */
+
+*{
+    font-family: 'Dosis', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+    text-transform: capitalize;
+ }
+ 
+.container-res{
+    min-height: 25vh;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255,162,0) ;
+    padding-bottom: 20px;
+    margin-top: 15px;
+}
+
+.form{
+   display:flex; 
+}
+
+.form-info button{
+    background: rgb(255,162,0);
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);  
+}
+
+.form .left{
+    flex-basis:50%;
+    /* border: 1px solid black; */
+    /* padding: 40px 60px;
+    background: #fff; */
+    margin-left: 60px;
+}
+
+.form .left img{
+    width: 100%;
+    background-size:cover ; 
+}
+
+
+.form .right{ 
+    flex-basis:50%;
+    padding: 40px;
+    background: #f5f5f5;
+    color: #fff;
+    margin-right: 60px;
+}
+
+.right h3{
+   text-align: center; 
+   font-size: 25px;
+   margin-bottom: 15px;
+    color:#cd9452 ;
+}
+
+.container-res h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+.container-res h2{
+    color: #cd9452;
+    margin-bottom:10px;
+    text-align: center;
+}
+
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #d6d4d4;
+    background: #f5f5f5;
+    font-weight: 300;
+}

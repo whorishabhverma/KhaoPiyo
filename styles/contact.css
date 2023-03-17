@@ -1,0 +1,125 @@
+/* for contact */
+
+*{
+    font-family: 'Dosis', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+    text-transform: capitalize;
+ }
+ 
+.container-contact{
+
+margin-top:50px;
+}
+
+.contactbox{
+background: #fff;
+display: flex;
+margin-left: 98px;
+margin-right: 150px;
+}
+
+.left{
+flex-basis:60%;
+padding: 40px 60px;
+background-color: #f5f5f5;
+}
+
+.right{ 
+flex-basis:40%;
+padding: 40px;
+background: rgb(255,162,0);
+color: #fff;
+}
+
+#contact-div .container-contact h1{
+color: #CD9452;
+margin-bottom:10px;
+text-align: center;
+}
+
+#contact-div .container-contact p{ 
+margin-bottom:40px;
+text-align: center;
+font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.row1{
+display: flex;
+justify-content:space-between;
+margin-bottom: 20px; 
+}
+
+.row1 .grp{
+flex-basis: 45%;    
+}
+
+.grp input{
+width:100%;
+border: none;
+border-bottom:1px solid #ccc;
+outline: none;
+padding-bottom: 5px;
+background-color: #f5f5f5;
+}
+
+textarea{
+width:100%;
+border:1px solid #ccc;
+outline:none;
+padding:10px;
+box-sizing: border-box;
+}
+
+.grp label{
+margin-bottom: 6px;
+display: block;
+color:black;
+}
+
+.contactbox button{
+background: rgb(255,162,0);
+width: 100px;
+border: none;
+outline: none;
+color: #fff;
+height: 35px;
+border-radius: 30px;
+margin-top: 20px;
+box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+
+
+}
+
+.left h3{
+color: rgb(255,162,0);
+font-weight:600;
+margin-bottom: 30px;
+font-size: 20px;
+}
+
+tr td:first-child{
+padding-right: 20px;
+}
+
+tr td{
+padding-top: 20px;
+}
+
+        iframe{
+            border:1px solid black;
+            height:200px;
+            margin-top: 10px;
+        }

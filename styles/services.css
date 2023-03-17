@@ -1,0 +1,72 @@
+/* for menu page */
+
+* {
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(.43, 1.1, .62, 1.08);
+    text-transform: capitalize;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu span {
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(255, 162, 0);
+}
+
+.menu h3 {
+    font-size: 20px;
+
+}
+
+.container-menu {
+
+
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin: 50px;
+    display: grid;
+    grid-template-rows: 100px 150px 150px 150px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.box {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    /* flex-grow: 1; */
+
+}
+
+.box1 {
+    background-color: rgb(255, 162, 0);
+    color: white;
+    font-size: 30px;
+    grid-column: 1/-1;
+    padding: 10px;
+
+}
+
+.box2 {}
+
+.box3 {}
+
+.box4 {}
+
+.box5 {}
+
+.box6 {}
+
+.box7 {}

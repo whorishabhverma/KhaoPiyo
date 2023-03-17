@@ -1,0 +1,73 @@
+
+    /* footer */
+
+    *{
+        font-family: 'Dosis', sans-serif;
+        margin:0; padding:0;
+        box-sizing: border-box;
+        outline: none; border:none;
+        text-decoration: none;
+        transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+        text-transform: capitalize;
+     }
+     
+    footer{
+background-color:#f5f5f5;
+margin:20px;
+}           
+.icon1{
+display: flex;
+margin-left: 100px;
+padding: 31px;
+
+}
+.timing{
+margin-left: 27px;
+height: 100px;
+}
+
+/* .timing img{
+height: 100px;
+width: 100px;
+} */
+
+.phone{
+margin-left: 175px;
+}
+.phone img , .Address img ,.email img,.timing img{
+height: 100px;
+width: 100px;
+
+}
+
+.email{
+margin-left: 175px;
+}
+
+/* .email img{
+height: 100px;
+width: 100px;
+} */
+.Address{
+margin-left: 116px;
+}
+/* 
+.Address img{
+height: 100px;
+width: 100px;
+} */
+
+.icon2{
+margin-left: 600px;
+}
+
+.end{
+text-align: center;
+}
+
+.icon2 a i {
+margin: 10px;
+padding: 10px;
+color: #CD9452;
+}
+

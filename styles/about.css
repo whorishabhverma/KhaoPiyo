@@ -1,0 +1,99 @@
+ /* for about */
+
+ *{
+    font-family: 'Dosis', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: all 0.4s cubic-bezier(.43,1.1,.62,1.08);
+    text-transform: capitalize;
+ }
+
+ .container-about{
+            
+    display: grid;
+    justify-content: center;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+    grid-template-columns: 700px 220px 220px 220px;
+    grid-template-rows:300px 300px;
+    grid-gap:10px 10px;
+ }
+/* 
+.container-about .items{
+    border: 1px solid red;
+} */
+.container-about .items1{ grid-row: 1/-1; }
+.container-about .items2{ grid-column: 2/-1; }
+.container-about .items h2,p{
+    padding: 10px;
+}
+.container-about .items p{
+    line-height: 2;
+} 
+
+.container-about .items button{
+    margin-top: 10px;
+
+}
+.container-about .items button:hover{
+    background-color: #dcd170;
+}
+
+
+
+.container-about .items button{
+ padding:8.8px 26.4px;
+ background-color:#CD9452;
+ color: #FFFFFF;
+ font-size: 25px;
+ border: none;
+}
+
+
+
+
+
+
+
+
+.container-about .items .icons{
+flex:1 1 16rem;
+text-align: center;
+background: #f5f5f5;
+padding:3rem 2rem;
+    }
+
+.container-about .items .icons img{
+height: 5rem;
+}
+
+
+
+
+ 
+   
+.container-about .items .icons h3 {
+    
+    padding: 10px;
+    padding-left: 30px;
+    
+}
+/* .container .items2 h3,p{
+    margin-left: 50px;
+} */
+
+.container-about .items2 h3{
+    font-size: 30px;
+}
+
+.container-about .items2 p{
+    font-size: 18px;
+
+}
+
+
+
+
+
