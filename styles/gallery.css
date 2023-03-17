@@ -33,11 +33,11 @@ color: rgb(255, 162, 0);
      .container-gallery .items{
    background-size: cover;
     } 
-.container-gallery .items1{background-image: url(images/food-galler-img-1.jpg);}
-.container-gallery .items2{background-image: url(images/food-galler-img-2.jpg);}
-.container-gallery .items3{background-image: url(images/food-galler-img-3.jpg);}
-.container-gallery .items4{background-image: url(images/food-galler-img-4.jpg);}
-.container-gallery .items5{background-image: url(images/food-galler-img-5.jpg);}
-.container-gallery .items6{background-image: url(images/food-galler-img-6.jpg);}
+.container-gallery .items1{background-image: url(styles/images/food-galler-img-1.jpg);}
+.container-gallery .items2{background-image: url(styles/images/food-galler-img-2.jpg);}
+.container-gallery .items3{background-image: url(styles/images/food-galler-img-3.jpg);}
+.container-gallery .items4{background-image: url(styles/images/food-galler-img-4.jpg);}
+.container-gallery .items5{background-image: url(styles/images/food-galler-img-5.jpg);}
+.container-gallery .items6{background-image: url(styles/images/food-galler-img-6.jpg);}
 
 
