@@ -31,7 +31,12 @@ color: rgb(255, 162, 0);
     justify-content: center;
      }
      .container-gallery .items{
-   background-size: cover;
+            background-size: cover;
+            display: grid;
+            justify-content: center;
+            align-items: end;
+            font-size: 21px;
+            color: #fff;
     } 
 .container-gallery .items1{background-image: url(images/food-galler-img-1.jpg);}
 .container-gallery .items2{background-image: url(images/food-galler-img-2.jpg);}
