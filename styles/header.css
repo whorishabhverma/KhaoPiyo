@@ -104,7 +104,12 @@
     width:  100%;
     margin-top: 90px;
     margin-bottom: 20px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallup.net/wp-content/uploads/2019/09/761345-restaurant-food-architecture-interior-design-room.jpg") center/cover no-repeat;
+/*     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://wallup.net/wp-content/uploads/2019/09/761345-restaurant-food-architecture-interior-design-room.jpg") center/cover no-repeat; */
    
     /* background-image: url('https://wallup.net/wp-content/uploads/2019/09/761345-restaurant-food-architecture-interior-design-room.jpg'); */
 }
+video{
+    background-size:cover;
+    width:100%;
+}
+    
