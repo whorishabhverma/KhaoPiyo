@@ -157,7 +157,8 @@
                 const user = userCredential.user;
                 console.log(user);
                 alert(user.email + " Login successfully!!!");
-                document.getElementById('logout').style.display = 'block';
+		window.location.assign("index.html");
+                //document.getElementById('logout').style.display = 'block';
                 // ...
             })
             .catch((error) => {
