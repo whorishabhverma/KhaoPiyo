@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #fff;
+}
+.navbar a {
+    /* font-style: italic; */
+    font-weight: 400;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    margin-top: -16px;
+}
+.nav li a {
+    border-radius: 10px;
+    background-color: #cd9452;
+    color: #fff;
+    padding: 8px;
+    margin: 8px;
+}
+.logout-button{
+    padding: 10px;
+}
+.complete{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url('sign-image.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 50px 60px 70px;
+}
+
+.col-sm-4{
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 50px 60px 70px;
+    background-color: #fff;
+    border-radius: 9px;
+    
+}
+.col-sm-4 h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #cd9452;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+.form-group{
+    background-color: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    overflow: hidden;   
+}
+.form-group i{
+    margin: 15px;
+    color: #999;
+    background-color: #fff;
+}
+label{
+    width: 100%;
+    background: transparent;
+}
+input{
+    background-color: #eaeaea;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+    border-radius: 2px;
+    /* border: 1px solid black; */
+}
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button{
+    flex-basis: 48%;
+    background-color: #cd9452;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 48px;
+}
