@@ -17,6 +17,10 @@
     
     <script src="https://kit.fontawesome.com/b1252cc445.js" crossorigin="anonymous"></script>
     <script src="scripts/scriptforreadmore.js"></script>
+     
+   <!--contact-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script >
+    <script src="contact.js"></script>
 
   </head>
   <body>
@@ -261,29 +265,29 @@
         <div class="items items6">Spring Roll</div>
     </div>
       
-      <!-- for contact -->
+     <!-- for contact -->
     <div id="contact-div">
         <div class="container-contact">
             <h1>Connect With Us</h1>
-            <p> Connect With One Of The Most Bizzare Restaurants In The World</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
 
         <div class="contactbox">
             <div class="left">
                 <h3>Sent your request</h3>
-                <form action="">
+                <form onsubmit="sendemail(); reset(); return false;">
                     <div class="row1">
                         <div class="grp">
 
                             <label>Name</label>
-                            <input type="text" placeholder="Your Name">
+                            <input type="text" id="name" placeholder="Your Name">
 
                         </div>
 
                         <div class="grp">
 
                             <label>Phone</label>
-                            <input type="text" placeholder="8356458256">
+                            <input type="number" id="number" placeholder="8356458256">
 
                         </div>
 
@@ -293,22 +297,22 @@
                         <div class="grp">
 
                             <label>E-mail</label>
-                            <input type="text" placeholder="youremail@gmail.com">
+                            <input type="text" id="email" placeholder="youremail@gmail.com">
 
                         </div>
 
                         <div class="grp">
 
                             <label>Subject</label>
-                            <input type="text" placeholder="anything ">
+                            <input type="text" id="subject" placeholder="anything ">
 
                         </div>
                     </div>
 
                     <label>Message</label>
-                    <textarea row="5" placeholder="Your Message"></textarea>
+                    <textarea row="5" id="message" placeholder="Your Message"></textarea>
 
-                    <button type="submit">SEND</button>
+                    <button type="submit" id="button">SEND</button>
                 </form>
             </div>
 
@@ -328,7 +332,7 @@
 
                     <tr>
                         <td>Address</td>
-                        <td> 56-Ground floor,Chorbazar,Mumbai </td>
+                        <td> 56-Ground floor,chorbazar,Mumbai </td>
                     </tr>
                 </table>
 
